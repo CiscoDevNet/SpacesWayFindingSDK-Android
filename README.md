@@ -1,12 +1,40 @@
-# devnet-template
-This provides a template repository for creating or importing repos in the CiscoDevNet organization on GitHub.com. 
+# SpacesWayFindingSDK-Android
 
-Please use this template as a guide to creating a repo that encourages contributions and shows thoughtful maintenance strategies.  
+Welcome to the SpacesWayFindingSDK-Android — a easy-to-integrate Android SDK designed to enable advanced indoor wayfinding and navigation features in your Android applications.
 
-The `CODE_OF_CONDUCT.md` reflects our standards for interaction. 
+With this SDK, developers can effortlessly add:
 
-The `CONTRIBUTING.md` file instructs new contributors on how to communicate with the project maintainers, report issues, provide pull requests, reviewing contributions, and how to version control releases.
+Accurate indoor positioning and routing
 
-The `LICENSE` file should contain the license you intend for the source code in the repo. 
+Interactive maps with multi-level support
 
-The `SECURITY.md` file describes security policies and procedures including reporting a security-related bug and the policy on disclosure. 
+Seamless integration with your existing app architecture
+
+Our SDK leverages cutting-edge mapping technologies and is built to deliver smooth, real-time user experiences inside complex indoor environments such as malls, airports, office buildings, and more.
+
+
+## Requirements
+- JDK 17 or later, Android 8.0(SDK version 26) or later
+
+## Installation
+1. **Add the SDK to your project:**
+- Copy `SpacesWayFindingApp.aar` and its dependencies (e.g., `SpacesWayFindingSDK.aar`) into your project's `app/libs/` directory.
+2. **Sync SDKs:**
+- In Android Studio, go to `File` and click `Sync Project with Gradle Files` to sync with Gradle.
+3. **Import the SDK:**
+   ```kotlin
+   import com.ciscospaces.wayfinding.app
+   ```
+
+## Usage & Documentation
+- See [WF-SDK-V1.2-Document.pdf](./WF-SDK-V1.2-Document.pdf) for detailed API documentation and integration guides.
+- Inline code documentation is available within the SDK headers and sample app.
+
+## Support
+For questions, issues, or feature requests, please open an issue in this repository or contact the maintainers.
+
+## License
+This SDK is provided under the terms of the [LICENSE](./LICENSE) file.
+
+## Contributing
+Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
