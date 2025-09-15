@@ -27,7 +27,7 @@ Our SDK leverages cutting-edge mapping technologies and is built to deliver smoo
    ```
 
 ## Usage & Documentation
-- See [WF-SDK-V1.2-Document.pdf](./WF-SDK-V1.2-Document.pdf) for detailed API documentation and integration guides.
+- See [Cisco Spaces Wayfinding Documentation](https://devnetapps.cisco.com/docs/cisco-spaces-wayfinding/) for detailed API documentation and integration guides.
 - Inline code documentation is available within the SDK headers and sample app.
 
 ## Support
