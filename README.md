@@ -18,7 +18,7 @@ Our SDK leverages cutting-edge mapping technologies and is built to deliver smoo
 
 ## Installation
 1. **Add the SDK to your project:**
-- Copy `SpacesWayFindingApp.aar` and its dependencies (e.g., `SpacesWayFindingSDK.aar`) into your project's `app/libs/` directory.
+- Copy `SpacesWayFindingApp.aar` and its dependencies (e.g., `SpacesWayFinding-Core-SDK.aar` and `SpacesWayFinding-UI-SDK.aar`) into your project's `app/libs/` directory.
 2. **Sync SDKs:**
 - In Android Studio, go to `File` and click `Sync Project with Gradle Files` to sync with Gradle.
 3. **Import the SDK:**
